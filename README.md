@@ -4,21 +4,16 @@
 # Project Title: 📊 Customer Segmentation Analysis for Subscription Service
 
 ## Introduction: Setting the Scene
+In today’s competitive subscription market, understanding customer behavior is key to reducing churn and driving growth. This project focuses on analyzing customer data from a subscription service to identify trends, segment customers, and uncover insights into cancellations and renewals. By analyzing this data, we can help the business improve customer retention, optimize marketing strategies, and increase revenue.
 
-Begin by explaining the purpose of the project and its real-world impact. Highlight why customer segmentation is essential for subscription-based businesses. For example:
+## Project Goals
 
-    "In today’s competitive subscription market, understanding customer behavior is key to reducing churn and driving growth. This project focuses on analyzing customer data from a subscription service to identify trends, segment customers, and uncover insights into cancellations and renewals. By analyzing this data, we can help the business improve customer retention, optimize marketing strategies, and increase revenue."
+#### We aimed to address the following questions:
 
-2. Project Goals: Defining the Questions
-
-Outline the specific business questions you set out to answer. These questions will guide the reader through the project and provide context for your analysis. For instance:
-
-    "We aimed to address the following questions:
-
-        What regions have the highest and lowest customer counts?
-        Which subscription types are most popular, and which ones are driving revenue?
-        Are there patterns in subscription cancellations, and which regions see the highest cancellation rates?
-        What is the typical subscription duration, and who are the loyal customers with long-term subscriptions? "
+- What regions have the highest and lowest customer counts?
+- Which subscription types are most popular, and which ones are driving revenue?
+- Are there patterns in subscription cancellations, and which regions see the highest cancellation rates?
+- What is the typical subscription duration, and who are the loyal customers with long-term subscriptions? "
 
 3. Data Exploration and Preparation
 
