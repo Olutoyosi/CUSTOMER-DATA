@@ -27,7 +27,7 @@ In SQL, we tackled key questions by writing queries to isolate important trends:
 - High Churn Regions: Our analysis revealed that North has the highest number of cancellations. This region accounted for over 30% of all canceled subscriptions, suggesting it may require targeted retention strategies.
 - Subscription Duration: We calculated the average subscription duration and found that customers typically stay subscribed for about 12 months. However, some high-value customers have subscribed for more than 12 months, indicating potential for loyalty incentives."
 
-5. Power BI Dashboard: Visualizing the Story
+## Power BI Dashboard: Visualizing the Story
 
 To make our findings actionable, we developed an interactive Power BI dashboard. Here’s what it includes:
 
@@ -46,9 +46,16 @@ Based on our analysis, we recommend the following actions:
 
 ## Technical Documentation
 
-Excel: 
-SQL Queries: 
-Power BI Dashboard: 
+Excel
+![CUSTOMER DATA- PIVOT TABLES](https://github.com/user-attachments/assets/dc86764b-8f7f-4601-a921-434e271b6454)
+
+SQL Queries
+
+
+Power BI Dashboard
+
+![POWER BI DASHBOARD-Customer Data](https://github.com/user-attachments/assets/12fa2ba9-e53e-45b9-861b-7bdd3b18b086)
+
 
 ## Conclusion
 
