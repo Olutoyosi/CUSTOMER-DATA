@@ -39,11 +39,13 @@ Group by region;
 Explanation: This counts unique customers (customer_id) per region.
 
 ```
---Find the most popular subscription type by the number of customers.-- 
+--Find the most popular subscription type by the number of customers.--
+
 Select top 1 subscriptiontype, count(distinct customerid) as total_customers
 From PROJECT_SQL
 Group by subscriptiontype 
 Order by total_customers desc;
+
 ```
 Explanation: This counts unique customers for each subscription_type and orders by the highest count to find the most popular type.
 
