@@ -70,6 +70,8 @@ Based on our analysis, we recommend the following actions:
 ## Technical Documentation
 
 Excel
+![EXCEL ](https://github.com/user-attachments/assets/b80ae4ee-4bf6-4a5e-827c-090fadb81ab3)
+
 ![CUSTOMER DATA- PIVOT TABLES](https://github.com/user-attachments/assets/dc86764b-8f7f-4601-a921-434e271b6454)
 
 SQL Queries
