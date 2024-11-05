@@ -38,7 +38,7 @@ Group by region;
 ```
 Explanation: This counts unique customers (customer_id) per region.
 
-```
+``` SQL
 --Find the most popular subscription type by the number of customers.--
 
 Select top 1 subscriptiontype, count(distinct customerid) as total_customers
