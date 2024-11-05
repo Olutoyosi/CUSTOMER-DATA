@@ -1,9 +1,9 @@
 # CUSTOMER-DATA
-
+This project analyzes customer data for a subscription service to uncover insights on customer segments, subscription trends, and churn patterns. Through a mix of Excel, SQL, and Power BI, we explore subscription behaviors, calculate average subscription duration, and identify high-churn regions.
 
 # Project Title: 📊 Customer Segmentation Analysis for Subscription Service
 
-## Introduction: Setting the Scene
+## Introduction
 In today’s competitive subscription market, understanding customer behavior is key to reducing churn and driving growth. This project focuses on analyzing customer data from a subscription service to identify trends, segment customers, and uncover insights into cancellations and renewals. By analyzing this data, we can help the business improve customer retention, optimize marketing strategies, and increase revenue.
 
 ## Project Goals
