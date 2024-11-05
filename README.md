@@ -27,12 +27,33 @@ In SQL, we tackled key questions by writing queries to isolate important trends:
 - High Churn Regions: Our analysis revealed that North has the highest number of cancellations. This region accounted for over 30% of all canceled subscriptions, suggesting it may require targeted retention strategies.
 - Subscription Duration: We calculated the average subscription duration and found that customers typically stay subscribed for about 12 months. However, some high-value customers have subscribed for more than 12 months, indicating potential for loyalty incentives."
 
-## Power BI Dashboard: Visualizing the Story
+### SQL Code Snippets
+``` SQL
+Retrieve the total number of customers from each region.--
+
+Select  region, count(distinct Customerid) as total_customers 
+from PROJECT_SQL
+Group by region;
+
+```
+Explanation: This counts unique customers (customer_id) per region.
+
+```
+--Find the most popular subscription type by the number of customers.-- 
+Select top 1 subscriptiontype, count(distinct customerid) as total_customers
+From PROJECT_SQL
+Group by subscriptiontype 
+Order by total_customers desc;
+```
+Explanation: This counts unique customers for each subscription_type and orders by the highest count to find the most popular type.
+
+
+## Power BI Dashboard
 
 To make our findings actionable, we developed an interactive Power BI dashboard. Here’s what it includes:
 
-- Customer Overview: A chart showing customer distribution by region, allowing easy identification of our most and least active areas.
-- Subscription Trends: A chart displaying total revenue by subscription type, highlighting our most profitable plans.
+- Customer Overview: A Line chart showing customer distribution by region, allowing easy identification of our most and least active areas.
+- Subscription Trends: A pie chart displaying total revenue by subscription type, highlighting our most profitable plans.
 - Cancellations Analysis: A donut chart to show the proportion of active vs. canceled subscriptions, and a matrix of cancellations and subscription type by region, enabling teams to identify cancellation hotspots.
 - Interactive Slicers: Slicers for region, subscription type, and status allow users to explore specific segments dynamically, offering insights at a granular level."
 
@@ -50,7 +71,7 @@ Excel
 ![CUSTOMER DATA- PIVOT TABLES](https://github.com/user-attachments/assets/dc86764b-8f7f-4601-a921-434e271b6454)
 
 SQL Queries
-
+See the SQL files in Readme for each of the queries used in this project
 
 Power BI Dashboard
 
