@@ -29,35 +29,27 @@ In SQL, we tackled key questions by writing queries to isolate important trends:
 
 5. Power BI Dashboard: Visualizing the Story
 
-Describe the design and purpose of your Power BI dashboard. Explain how each visualization helps tell a specific part of the story, and how it allows stakeholders to explore the data interactively.
+To make our findings actionable, we developed an interactive Power BI dashboard. Here’s what it includes:
 
-    "To make our findings actionable, we developed an interactive Power BI dashboard. Here’s what it includes:
+- Customer Overview: A chart showing customer distribution by region, allowing easy identification of our most and least active areas.
+- Subscription Trends: A chart displaying total revenue by subscription type, highlighting our most profitable plans.
+- Cancellations Analysis: A donut chart to show the proportion of active vs. canceled subscriptions, and a matrix of cancellations and subscription type by region, enabling teams to identify cancellation hotspots.
+- Interactive Slicers: Slicers for region, subscription type, and status allow users to explore specific segments dynamically, offering insights at a granular level."
 
-        Customer Overview: A map showing customer distribution by region, allowing easy identification of our most and least active areas.
-        Subscription Trends: A bar chart displaying total revenue by subscription type, highlighting our most profitable plans.
-        Cancellations Analysis: A pie chart to show the proportion of active vs. canceled subscriptions, and a bar chart of cancellations by region, enabling teams to identify cancellation hotspots.
-        Interactive Slicers: Slicers for region, subscription type, and status allow users to explore specific segments dynamically, offering insights at a granular level."
+## Key Insights and Recommendations
 
-6. Key Insights and Recommendations
+Based on our analysis, we recommend the following actions:
 
-Summarize your findings and suggest data-driven actions. This is where you connect your analysis back to the business goals and propose potential strategies.
+- Targeted Retention Campaigns: Since North shows a high churn rate, we suggest a targeted retention campaign focusing on this area, including personalized incentives and offers.
+- Focus on High-Value Plans: With the Basic Plan generating significant revenue, a customer success program could encourage upgrades and longer commitments.
+- Loyalty Program for Long-Term Subscribers: For customers with subscriptions over 12 months, introduce a loyalty program to reward their commitment and further reduce churn risk.
 
-    "Based on our analysis, we recommend the following actions:
+## Technical Documentation
 
-        Targeted Retention Campaigns: Since Region B shows a high churn rate, we suggest a targeted retention campaign focusing on this area, including personalized incentives and offers.
-        Focus on High-Value Plans: With the Premium Plan generating significant revenue, a customer success program could encourage upgrades and longer commitments.
-        Loyalty Program for Long-Term Subscribers: For customers with subscriptions over 12 months, introduce a loyalty program to reward their commitment and further reduce churn risk."
+Excel: 
+SQL Queries: 
+Power BI Dashboard: 
 
-7. Technical Documentation
+## Conclusion
 
-Here’s where you can add details about how each part of the project was built. This includes:
-
-    Excel: Briefly describe the pivot tables and calculations you used.
-    SQL Queries: Add each SQL query with comments, explaining its purpose.
-    Power BI Dashboard: Include screenshots or descriptions of each visual, highlighting how to interact with the dashboard.
-
-8. Conclusion: Reflecting on the Impact
-
-Wrap up with a reflection on the value of your analysis. Describe how the insights from this project could benefit the business over the long term.
-
-    "This project highlights the power of data analysis in understanding and improving customer relationships. By identifying key segments, tracking subscription patterns, and analyzing cancellation trends, the business is now equipped with data-backed insights to increase retention, enhance customer experience, and drive growth."
+This project highlights the power of data analysis in understanding and improving customer relationships. By identifying key segments, tracking subscription patterns, and analyzing cancellation trends, the business is now equipped with data-backed insights to increase retention, enhance customer experience, and drive growth.
